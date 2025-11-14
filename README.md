@@ -130,9 +130,7 @@ DAX
 
 ### 🗺️ Visual Highlights
 
-![Overview Analysis](visuals/img01.png)
-![Timeseries Analysis](visuals/img02.png)
-![Details](visuals/img03.png)
+Click the link for Visualization https://github.com/HarishDomala/rapido-trip-analysis
 
 ### 🧪 How to Run This Project
 git clone https://github.com/HarishDomala/rapido-trip-analysis
