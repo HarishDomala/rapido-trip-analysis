@@ -46,8 +46,6 @@ Trip distance
 
 Fare amount
 
-Driver ID
-
 Cancellation status
 
 3️⃣ Data Cleaning
@@ -80,100 +78,66 @@ Revenue per trip
 
 Driver performance metrics
 
-5️⃣ Exploratory Data Analysis (EDA)
 
-Trip frequency analysis
+5️⃣ Visualizations
 
-Peak hours and weekdays
+Used Donut Charts for Revenue Split.
 
-Top pickup & drop hotspots
+Line charts (Pickup Time/ Week days)
 
-Trip duration distribution
+Bar charts (Distance, Total Revenue, Most Preferred vehicle)
 
-Distance vs fare relationships
+Filter (Customer Cancellation Insights)
 
-Cancellation reasons (if provided)
-
-6️⃣ Visualizations
-
-Using Matplotlib & Seaborn:
-
-Line charts (daily/weekly trends)
-
-Bar charts (top locations, peak hours)
-
-Heatmaps (hour vs day demand)
-
-Distribution plots (distance, duration)
+Stacked Area Chart (Frequent Pickup Location, Frequent Drop Location)
 
 ### 📁 Folder Structure
 ```
 ├── data/
-│   ├── rapido_trips_raw.csv
-│   └── rapido_trips_cleaned.csv
-│
-├── notebooks/
-│   └── Rapido_Trip_Analysis.ipynb
+│   ├── Rapidoo_csv.csv
 │
 ├── visuals/
-│   ├── demand_by_hour.png
-│   ├── top_pickup_locations.png
-│   ├── distance_distribution.png
+│   ├── Overview Analysis
+│   ├── Timeseries Analysis
+│   ├── Details
 │
 ├── README.md
+├──requirements.txt
 
 ```
-### 🛠 Tech Stack
+### Tools
 
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-Power BI / Tableau (optional for dashboards)
+Power BI
 
 Excel
 
+Power Query
+
+DAX
+
 📈 Key Insights (Sample)
 
-Add/modify based on your dataset:
 
-Evening hours (5–9 PM) show the highest trip demand.
+  - Evening hours (3:30 PM - 7:30 PM) show the highest trip demand.
 
-Weekends have 20–30% more bookings compared to weekdays.
+  - Weekends have 20–30% more bookings compared to weekdays.
 
-Short-distance trips (< 3 km) contribute to the maximum trip volume.
+  - Short-distance trips (< 3 km) contribute to the maximum trip volume.
 
-Peak pickup hotspots are around bus stations & commercial areas.
+  - Peak pickup hotspots are around bus stations & commercial areas.
 
-Average trip duration is 8–12 minutes, depending on traffic.
-
-Cancellations are highest in rainy conditions (if weather data included).
+  - Average trip duration is 8–12 minutes, depending on traffic.
 
 ### 🗺️ Visual Highlights
 
-(Add your chart images here)
-
-![Demand by Hour](visuals/demand_by_hour.png)
-![Distance Distribution](visuals/distance_distribution.png)
-![Top Pickup Hotspots](visuals/top_pickup_locations.png)
+![Overview Analysis](visuals/img01.png)
+![Timeseries Analysis](visuals/img02.png)
+![Details](visuals/img03.png)
 
 ### 🧪 How to Run This Project
-git clone https://github.com/<your-username>/Rapido-Trip-Analysis.git
+git clone https://github.com/HarishDomala/rapido-trip-analysis
 cd Rapido-Trip-Analysis
-jupyter notebook
 
-
-### Open the notebook:
-
-Rapido_Trip_Analysis.ipynb
 
 ### 👨‍💻 Author
 
