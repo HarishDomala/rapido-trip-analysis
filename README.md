@@ -130,7 +130,8 @@ DAX
 
 ### 🗺️ Visual Highlights
 
-Click the link for Visualization https://github.com/HarishDomala/rapido-trip-analysis
+Click the link for Visualization https://github.com/HarishDomala/rapido-trip-analysis/tree/main
+
 
 ### 🧪 How to Run This Project
 git clone https://github.com/HarishDomala/rapido-trip-analysis
